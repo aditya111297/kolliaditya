@@ -1,172 +1,1000 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Title</title>
-        <!-- Required meta tags -->
-        <meta charset="utf-8" />
-        <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1, shrink-to-fit=no"
-        />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sai Chalam Academy - The Guidance Centre</title>
+    
+    <!-- Meta tags for SEO -->
+    <meta name="description" content="Sai Chalam Academy - The Guidance Centre for quality education and academic excellence">
+    <meta name="keywords" content="Sai Chalam Academy, education, academy, guidance, learning, courses">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="spinner-border text-gold" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
 
-        <!-- Bootstrap CSS v5.2.1 -->
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-            crossorigin="anonymous"
-        />
-    </head>
-
-    <body>
-        <header>
-            <nav
-                class="navbar navbar-expand-xl navbar-dark bg-success"
-            >
-                <a class="navbar-brand" href="#">img</a>
-                <button
-                    class="navbar-toggler d-lg-none"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#collapsibleNavId"
-                    aria-controls="collapsibleNavId"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation"
-                ></button>
-                <div class="collapse navbar-collapse" id="collapsibleNavId">
-                    <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+    <!-- Header Section -->
+    <header id="header" class="fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <div class="logo-container">
+                        <img src="assets/images/logo.png" alt="Sai Chalam Academy" class="img-fluid logo">
+                    </div>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto" >
                         <li class="nav-item">
-                            <a class="nav-link active" href="#" aria-current="page"
-                                >Home <span class="visually-hidden">(current)</span></a
-                            >
+                            <a class="nav-link active" href="#hero">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
+                            <a class="nav-link" href="#about">About</a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a
-                                class="nav-link dropdown-toggle"
-                                href="#"
-                                id="dropdownId"
-                                data-bs-toggle="dropdown"
-                                aria-haspopup="true"
-                                aria-expanded="false"
-                                >Dropdown</a
-                            >
-                            <div class="dropdown-menu" aria-labelledby="dropdownId">
-                                <a class="dropdown-item" href="#">Action 1</a>
-                                <a class="dropdown-item" href="#">Action 2</a>
-                            </div>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#programs">Programs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="admissions.html">Admissions</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#faculty">Faculty</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#testimonials">Testimonials</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#gallery">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
                         </li>
                     </ul>
-                    <form class="d-flex my-2 my-lg-0">
-                        <input
-                            class="form-control me-sm-2"
-                            type="text"
-                            placeholder="Search"
-                        />
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-                            Search
-                        </button>
-                    </form>
+                    <div class="ms-3 d-none d-lg-block">
+                        <a href="admissions.html#enrollment-form" class="btn btn-outline-gold" style="background-color: rgba(163, 0, 0, 0.9);">Apply Now</a>
+                    </div>
                 </div>
-            </nav>
-            
+            </div>
+        </nav>
+    </header>
 
-        </header>
-        <main>
-            <section>
-                <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li
-                            data-bs-target="#carouselId"
-                            data-bs-slide-to="0"
-                            class="active"
-                            aria-current="true"
-                            aria-label="First slide"
-                        ></li>
-                        <li
-                            data-bs-target="#carouselId"
-                            data-bs-slide-to="1"
-                            aria-label="Second slide"
-                        ></li>
-                        <li
-                            data-bs-target="#carouselId"
-                            data-bs-slide-to="2"
-                            aria-label="Third slide"
-                        ></li>
-                    </ol>
-                    <div class="carousel-inner" role="listbox">
-                        <div class="carousel-item active">
-                            <img
-                                src="holder.js/900x500/auto/#777:#555/text:First slide"
-                                class="w-100 d-block"
-                                alt="First slide"
-                            />
-                            <div class="carousel-caption d-none d-md-block">
-                                <h3>Title</h3>
-                                <p>Description</p>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img
-                                src="holder.js/900x500/auto/#666:#444/text:Second slide"
-                                class="w-100 d-block"
-                                alt="Second slide"
-                            />
-                            <div class="carousel-caption d-none d-md-block">
-                                <h3>Title</h3>
-                                <p>Description</p>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img
-                                src="holder.js/900x500/auto/#666:#444/text:Third slide"
-                                class="w-100 d-block"
-                                alt="Third slide"
-                            />
-                            <div class="carousel-caption d-none d-md-block">
-                                <h3>Title</h3>
-                                <p>Description</p>
+    <!-- Hero Section -->
+    <section id="hero" class="d-flex align-items-center ">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+                    <h1>Welcome to <span class="text-gold">Sai Chalam Academy</span></h1>
+                    <h2>The Guidance Centre for Academic Excellence</h2>
+                    <p class="my-4">Empowering students with knowledge, skills, and guidance to excel in their academic and professional journeys.</p>
+                    <div class="d-flex">
+                        <a href="#about" class="btn btn-primary me-3">Learn More</a>
+                        <a href="admissions.html" class="btn btn-outline-gold me-3">Apply Now</a>
+                        <a href="#contact" class="btn btn-outline-light">Contact Us</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="hero-logo-container">
+                        <img src="assets/images/logo.png" alt="Sai Chalam Academy" class="img-fluid hero-logo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-padding">
+        <div class="container">
+            <div class="section-title text-center" data-aos="fade-up">
+                <h2>About <span class="text-primary">Sai Chalam Academy</span></h2>
+                <div class="title-line"></div>
+                <p>Discover Our Journey of Academic Excellence</p>
+            </div>
+
+            <div class="row mt-5 align-items-center">
+                <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+                    <div class="about-img position-relative">
+                        <div class="about-shape"></div>
+                        <div class="about-img-content text-center p-5">
+                            <h3 class="mb-4">Our Vision</h3>
+                            <p>To create a learning environment that nurtures intellectual growth, critical thinking, and moral values in students, preparing them to be leaders in their chosen fields.</p>
+                            <div class="about-stats mt-4">
+                                <div class="row g-0">
+                                    <div class="col-6 col-md-3">
+                                        <div class="stat-item p-3">
+                                            <div class="h2 text-gold">500+</div>
+                                            <p>Students</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-3">
+                                        <div class="stat-item p-3">
+                                            <div class="h2 text-gold">20+</div>
+                                            <p>Courses</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-3">
+                                        <div class="stat-item p-3">
+                                            <div class="h2 text-gold">30+</div>
+                                            <p>Faculty</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-3">
+                                        <div class="stat-item p-3">
+                                            <div class="h2 text-gold">95%</div>
+                                            <p>Success Rate</p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <button
-                        class="carousel-control-prev"
-                        type="button"
-                        data-bs-target="#carouselId"
-                        data-bs-slide="prev"
-                    >
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button
-                        class="carousel-control-next"
-                        type="button"
-                        data-bs-target="#carouselId"
-                        data-bs-slide="next"
-                    >
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
+                </div>
+                <div class="col-lg-6 mt-5 mt-lg-0" data-aos="fade-left" data-aos-delay="200">
+                    <div class="about-content">
+                        <h3>Our Mission</h3>
+                        <p>At Sai Chalam Academy, we are committed to providing quality education that empowers students with knowledge, skills, and confidence to achieve their academic and career goals.</p>
+                        
+                        <div class="row mt-4">
+                            <div class="col-md-6">
+                                <div class="feature-box d-flex align-items-start mb-4">
+                                    <div class="feature-icon">
+                                        <i class="fas fa-user-graduate text-primary"></i>
+                                    </div>
+                                    <div class="ms-3">
+                                        <h5>Expert Faculty</h5>
+                                        <p>Experienced educators dedicated to student success.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="feature-box d-flex align-items-start mb-4">
+                                    <div class="feature-icon">
+                                        <i class="fas fa-book-open text-primary"></i>
+                                    </div>
+                                    <div class="ms-3">
+                                        <h5>Comprehensive Curriculum</h5>
+                                        <p>Well-designed courses meeting educational standards.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="feature-box d-flex align-items-start mb-4">
+                                    <div class="feature-icon">
+                                        <i class="fas fa-chalkboard-teacher text-primary"></i>
+                                    </div>
+                                    <div class="ms-3">
+                                        <h5>Interactive Learning</h5>
+                                        <p>Engaging teaching methods for better understanding.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="feature-box d-flex align-items-start mb-4">
+                                    <div class="feature-icon">
+                                        <i class="fas fa-hands-helping text-primary"></i>
+                                    </div>
+                                    <div class="ms-3">
+                                        <h5>Personalized Guidance</h5>
+                                        <p>Individual attention to address student needs.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <a href="#programs" class="btn btn-primary mt-3">Explore Our Programs</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs Section -->
+    <section id="programs" class="section-padding bg-light">
+        <div class="container">
+            <div class="section-title text-center" data-aos="fade-up">
+                <h2>Our <span class="text-primary">Programs</span></h2>
+                <div class="title-line"></div>
+                <p>Comprehensive Educational Programs Tailored for Success</p>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card program-card h-100">
+                        <div class="card-body">
+                            <div class="program-icon">
+                                <i class="fas fa-calculator"></i>
+                            </div>
+                            <h4 class="card-title">Mathematics</h4>
+                            <p class="card-text">Comprehensive mathematics courses designed to build strong foundations and analytical thinking skills across all levels.</p>
+                            <ul class="program-features">
+                                <li><i class="fas fa-check-circle"></i> Algebra & Calculus</li>
+                                <li><i class="fas fa-check-circle"></i> Problem-solving techniques</li>
+                                <li><i class="fas fa-check-circle"></i> Competitive exam preparation</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="#contact" class="btn btn-outline-primary">Enroll Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card program-card h-100">
+                        <div class="card-body">
+                            <div class="program-icon">
+                                <i class="fas fa-atom"></i>
+                            </div>
+                            <h4 class="card-title">Sciences</h4>
+                            <p class="card-text">Engaging science programs covering physics, chemistry, and biology with hands-on learning experiences.</p>
+                            <ul class="program-features">
+                                <li><i class="fas fa-check-circle"></i> Physics & Chemistry</li>
+                                <li><i class="fas fa-check-circle"></i> Biology & Life Sciences</li>
+                                <li><i class="fas fa-check-circle"></i> Practical applications</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="#contact" class="btn btn-outline-primary">Enroll Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card program-card h-100">
+                        <div class="card-body">
+                            <div class="program-icon">
+                                <i class="fas fa-language"></i>
+                            </div>
+                            <h4 class="card-title">Language Arts</h4>
+                            <p class="card-text">Comprehensive language courses focusing on reading, writing, and communication skills for academic success.</p>
+                            <ul class="program-features">
+                                <li><i class="fas fa-check-circle"></i> English Literature</li>
+                                <li><i class="fas fa-check-circle"></i> Writing & Grammar</li>
+                                <li><i class="fas fa-check-circle"></i> Public speaking</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="#contact" class="btn btn-outline-primary">Enroll Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="card program-card h-100">
+                        <div class="card-body">
+                            <div class="program-icon">
+                                <i class="fas fa-laptop-code"></i>
+                            </div>
+                            <h4 class="card-title">Computer Science</h4>
+                            <p class="card-text">Introduction to programming, software development, and digital literacy for the modern technological world.</p>
+                            <ul class="program-features">
+                                <li><i class="fas fa-check-circle"></i> Programming Basics</li>
+                                <li><i class="fas fa-check-circle"></i> Web Development</li>
+                                <li><i class="fas fa-check-circle"></i> Digital Skills</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="#contact" class="btn btn-outline-primary">Enroll Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="500">
+                    <div class="card program-card h-100">
+                        <div class="card-body">
+                            <div class="program-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <h4 class="card-title">Entrance Exam Prep</h4>
+                            <p class="card-text">Specialized coaching for competitive entrance examinations with strategic preparation and practice tests.</p>
+                            <ul class="program-features">
+                                <li><i class="fas fa-check-circle"></i> Test strategies</li>
+                                <li><i class="fas fa-check-circle"></i> Mock examinations</li>
+                                <li><i class="fas fa-check-circle"></i> Performance analysis</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="#contact" class="btn btn-outline-primary">Enroll Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="600">
+                    <div class="card program-card h-100">
+                        <div class="card-body">
+                            <div class="program-icon">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                            <h4 class="card-title">Skill Development</h4>
+                            <p class="card-text">Programs focusing on critical thinking, time management, and essential soft skills for holistic development.</p>
+                            <ul class="program-features">
+                                <li><i class="fas fa-check-circle"></i> Critical thinking</li>
+                                <li><i class="fas fa-check-circle"></i> Time management</li>
+                                <li><i class="fas fa-check-circle"></i> Leadership skills</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="#contact" class="btn btn-outline-primary">Enroll Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section id="why-us" class="section-padding">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="why-us-content">
+                        <h2>Why Choose <span class="text-primary">Sai Chalam Academy?</span></h2>
+                        <div class="title-line mb-4"></div>
+                        <p>We are committed to providing the highest quality education with a personalized approach that focuses on each student's unique needs and goals.</p>
+                        
+                        <div class="accordion why-us-accordion mt-4" id="whyUsAccordion">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        <i class="fas fa-medal me-2"></i> Excellence in Teaching
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#whyUsAccordion">
+                                    <div class="accordion-body">
+                                        Our faculty comprises experienced educators with expertise in their respective fields. They employ innovative teaching methodologies to make learning engaging and effective, ensuring that every student achieves their full potential.
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        <i class="fas fa-user-friends me-2"></i> Personalized Attention
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#whyUsAccordion">
+                                    <div class="accordion-body">
+                                        We maintain optimal student-teacher ratios to ensure personalized attention to each student. Our educators identify individual learning styles and adapt their teaching approaches accordingly, providing tailored guidance for academic success.
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        <i class="fas fa-book me-2"></i> Comprehensive Curriculum
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#whyUsAccordion">
+                                    <div class="accordion-body">
+                                        Our curriculum is meticulously designed to cover foundational concepts, advanced topics, and practical applications. We regularly update our course materials to incorporate the latest educational developments and exam patterns.
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                        <i class="fas fa-chart-line me-2"></i> Proven Track Record
+                                    </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#whyUsAccordion">
+                                    <div class="accordion-body">
+                                        Our academy has a consistent record of producing excellent academic results. Over the years, our students have achieved remarkable success in various examinations and competitions, reflecting our commitment to educational excellence.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 
-            </section>
-        </main>
-        <footer>
-            <!-- place footer here -->
-        </footer>
-        <!-- Bootstrap JavaScript Libraries -->
-        <script
-            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-            crossorigin="anonymous"
-        ></script>
+                <div class="col-lg-6 mt-5 mt-lg-0" data-aos="fade-left">
+                    <div class="why-us-stats">
+                        <div class="row">
+                            <div class="col-6 mb-4">
+                                <div class="stat-card text-center p-4">
+                                    <div class="stat-icon">
+                                        <i class="fas fa-history"></i>
+                                    </div>
+                                    <h3 class="counter">10</h3>
+                                    <p>Years of Excellence</p>
+                                </div>
+                            </div>
+                            <div class="col-6 mb-4">
+                                <div class="stat-card text-center p-4">
+                                    <div class="stat-icon">
+                                        <i class="fas fa-user-graduate"></i>
+                                    </div>
+                                    <h3 class="counter">5000</h3>
+                                    <p>Successful Students</p>
+                                </div>
+                            </div>
+                            <div class="col-6 mb-4">
+                                <div class="stat-card text-center p-4">
+                                    <div class="stat-icon">
+                                        <i class="fas fa-trophy"></i>
+                                    </div>
+                                    <h3 class="counter">125</h3>
+                                    <p>Awards Won</p>
+                                </div>
+                            </div>
+                            <div class="col-6 mb-4">
+                                <div class="stat-card text-center p-4">
+                                    <div class="stat-icon">
+                                        <i class="fas fa-certificate"></i>
+                                    </div>
+                                    <h3 class="counter">98</h3>
+                                    <p>Success Rate (%)</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="testimonial-highlight p-4 mt-3">
+                            <div class="testimonial-quote">
+                                <i class="fas fa-quote-left"></i>
+                                <p>Sai Chalam Academy transformed my academic journey with their exceptional teaching and personalized guidance. The faculty's dedication helped me achieve results beyond my expectations.</p>
+                                <div class="testimonial-author d-flex align-items-center mt-3">
+                                    <div class="author-avatar">
+                                        <i class="fas fa-user-circle fa-2x"></i>
+                                    </div>
+                                    <div class="author-info ms-3">
+                                        <h5 class="mb-0">Priya Sharma</h5>
+                                        <p class="mb-0">Top Scorer, 2022 Batch</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-            crossorigin="anonymous"
-        ></script>
-    </body>
+    <!-- Faculty Section -->
+    <section id="faculty" class="section-padding bg-light">
+        <div class="container">
+            <div class="section-title text-center" data-aos="fade-up">
+                <h2>Our <span class="text-primary">Faculty</span></h2>
+                <div class="title-line"></div>
+                <p>Meet Our Team of Expert Educators and Mentors</p>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="faculty-card">
+                        <div class="faculty-img">
+                            <i class="fas fa-user-tie faculty-placeholder"></i>
+                        </div>
+                        <div class="faculty-info p-3">
+                            <h4>Dr. Rajesh Kumar</h4>
+                            <p class="designation">Mathematics Department</p>
+                            <p class="experience"><i class="fas fa-briefcase me-2"></i>15+ Years Experience</p>
+                            <p class="qualification"><i class="fas fa-graduation-cap me-2"></i>Ph.D. in Mathematics</p>
+                            <div class="social-icons mt-2">
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="far fa-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="faculty-card">
+                        <div class="faculty-img">
+                            <i class="fas fa-user-tie faculty-placeholder"></i>
+                        </div>
+                        <div class="faculty-info p-3">
+                            <h4>Dr. Priya Singh</h4>
+                            <p class="designation">Science Department</p>
+                            <p class="experience"><i class="fas fa-briefcase me-2"></i>12+ Years Experience</p>
+                            <p class="qualification"><i class="fas fa-graduation-cap me-2"></i>Ph.D. in Physics</p>
+                            <div class="social-icons mt-2">
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="far fa-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="faculty-card">
+                        <div class="faculty-img">
+                            <i class="fas fa-user-tie faculty-placeholder"></i>
+                        </div>
+                        <div class="faculty-info p-3">
+                            <h4>Prof. Anil Verma</h4>
+                            <p class="designation">Language Arts</p>
+                            <p class="experience"><i class="fas fa-briefcase me-2"></i>10+ Years Experience</p>
+                            <p class="qualification"><i class="fas fa-graduation-cap me-2"></i>M.A. in English Literature</p>
+                            <div class="social-icons mt-2">
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="far fa-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="faculty-card">
+                        <div class="faculty-img">
+                            <i class="fas fa-user-tie faculty-placeholder"></i>
+                        </div>
+                        <div class="faculty-info p-3">
+                            <h4>Mrs. Sunita Patel</h4>
+                            <p class="designation">Computer Science</p>
+                            <p class="experience"><i class="fas fa-briefcase me-2"></i>8+ Years Experience</p>
+                            <p class="qualification"><i class="fas fa-graduation-cap me-2"></i>M.Tech in Computer Science</p>
+                            <div class="social-icons mt-2">
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="far fa-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-4">
+                <a href="#" class="btn btn-outline-primary">View All Faculty</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="section-padding">
+        <div class="container">
+            <div class="section-title text-center" data-aos="fade-up">
+                <h2>Student <span class="text-primary">Testimonials</span></h2>
+                <div class="title-line"></div>
+                <p>What Our Students Say About Their Experience</p>
+            </div>
+
+            <div class="owl-carousel testimonial-carousel mt-5" data-aos="fade-up">
+                <div class="testimonial-item p-4">
+                    <div class="testimonial-content">
+                        <div class="rating mb-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p><i class="fas fa-quote-left me-2"></i>The guidance I received at Sai Chalam Academy was instrumental in my academic success. The faculty's dedication and personalized attention helped me overcome my challenges and excel in my studies.<i class="fas fa-quote-right ms-2"></i></p>
+                    </div>
+                    <div class="testimonial-author d-flex align-items-center mt-3">
+                        <div class="author-avatar">
+                            <i class="fas fa-user-circle fa-2x"></i>
+                        </div>
+                        <div class="author-info ms-3">
+                            <h5 class="mb-0">Rahul Sharma</h5>
+                            <p class="mb-0">Mathematics Program</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-item p-4">
+                    <div class="testimonial-content">
+                        <div class="rating mb-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p><i class="fas fa-quote-left me-2"></i>The comprehensive curriculum and interactive teaching methods at Sai Chalam Academy made learning enjoyable and effective. The faculty's expertise and encouragement boosted my confidence and academic performance.<i class="fas fa-quote-right ms-2"></i></p>
+                    </div>
+                    <div class="testimonial-author d-flex align-items-center mt-3">
+                        <div class="author-avatar">
+                            <i class="fas fa-user-circle fa-2x"></i>
+                        </div>
+                        <div class="author-info ms-3">
+                            <h5 class="mb-0">Neha Patel</h5>
+                            <p class="mb-0">Science Program</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-item p-4">
+                    <div class="testimonial-content">
+                        <div class="rating mb-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p><i class="fas fa-quote-left me-2"></i>Joining Sai Chalam Academy was a turning point in my academic journey. The structured approach to learning and regular assessments helped me identify my strengths and areas for improvement, leading to significant progress.<i class="fas fa-quote-right ms-2"></i></p>
+                    </div>
+                    <div class="testimonial-author d-flex align-items-center mt-3">
+                        <div class="author-avatar">
+                            <i class="fas fa-user-circle fa-2x"></i>
+                        </div>
+                        <div class="author-info ms-3">
+                            <h5 class="mb-0">Arjun Mehta</h5>
+                            <p class="mb-0">Entrance Exam Prep</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-item p-4">
+                    <div class="testimonial-content">
+                        <div class="rating mb-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p><i class="fas fa-quote-left me-2"></i>The personalized attention and expert guidance from the faculty at Sai Chalam Academy helped me achieve my dream of securing admission to a prestigious institution. Their holistic approach to education transformed my learning experience.<i class="fas fa-quote-right ms-2"></i></p>
+                    </div>
+                    <div class="testimonial-author d-flex align-items-center mt-3">
+                        <div class="author-avatar">
+                            <i class="fas fa-user-circle fa-2x"></i>
+                        </div>
+                        <div class="author-info ms-3">
+                            <h5 class="mb-0">Preeti Sharma</h5>
+                            <p class="mb-0">Language Arts Program</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="section-padding bg-light">
+        <div class="container">
+            <div class="section-title text-center" data-aos="fade-up">
+                <h2>Our <span class="text-primary">Gallery</span></h2>
+                <div class="title-line"></div>
+                <p>Glimpses of Academy Life and Activities</p>
+            </div>
+
+            <div class="row mt-5 g-4" data-aos="fade-up">
+                <div class="col-md-4">
+                    <div class="gallery-item">
+                        <div class="gallery-img">
+                            <i class="fas fa-school fa-3x gallery-placeholder"></i>
+                            <div class="gallery-caption">Campus View</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="gallery-item">
+                        <div class="gallery-img">
+                            <i class="fas fa-chalkboard-teacher fa-3x gallery-placeholder"></i>
+                            <div class="gallery-caption">Classroom Sessions</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="gallery-item">
+                        <div class="gallery-img">
+                            <i class="fas fa-flask fa-3x gallery-placeholder"></i>
+                            <div class="gallery-caption">Science Experiments</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="gallery-item">
+                        <div class="gallery-img">
+                            <i class="fas fa-users fa-3x gallery-placeholder"></i>
+                            <div class="gallery-caption">Group Discussions</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="gallery-item">
+                        <div class="gallery-img">
+                            <i class="fas fa-graduation-cap fa-3x gallery-placeholder"></i>
+                            <div class="gallery-caption">Graduation Day</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="gallery-item">
+                        <div class="gallery-img">
+                            <i class="fas fa-award fa-3x gallery-placeholder"></i>
+                            <div class="gallery-caption">Award Ceremony</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding">
+        <div class="container">
+            <div class="section-title text-center" data-aos="fade-up">
+                <h2>Get In <span class="text-primary">Touch</span></h2>
+                <div class="title-line"></div>
+                <p>Contact Us for Inquiries and Admissions</p>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-lg-5" data-aos="fade-right">
+                    <div class="contact-info p-4">
+                        <h3>Contact Information</h3>
+                        <p>Reach out to us for any inquiries about our programs, admissions, or to schedule a visit to our campus.</p>
+                        
+                        <div class="contact-details mt-4">
+                            <div class="contact-item d-flex align-items-start mb-3">
+                                <div class="contact-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="ms-3">
+                                    <h5>Address</h5>
+                                    <p>123 Education Street, Academic District<br>Knowledge City, 560001</p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item d-flex align-items-start mb-3">
+                                <div class="contact-icon">
+                                    <i class="fas fa-phone-alt"></i>
+                                </div>
+                                <div class="ms-3">
+                                    <h5>Phone</h5>
+                                    <p>+91 98765 43210<br>+91 87654 32109</p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item d-flex align-items-start mb-3">
+                                <div class="contact-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="ms-3">
+                                    <h5>Email</h5>
+                                    <p>info@saichalamacademy.edu<br>admissions@saichalamacademy.edu</p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item d-flex align-items-start">
+                                <div class="contact-icon">
+                                    <i class="fas fa-clock"></i>
+                                </div>
+                                <div class="ms-3">
+                                    <h5>Office Hours</h5>
+                                    <p>Monday - Saturday: 9:00 AM - 6:00 PM<br>Sunday: Closed</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="social-links mt-4">
+                            <h5>Connect With Us</h5>
+                            <div class="social-icons">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-youtube"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-7 mt-5 mt-lg-0" data-aos="fade-left">
+                    <div class="contact-form-wrapper p-4">
+                        <h3>Send Us a Message</h3>
+                        <p>Fill out the form below, and we'll get back to you as soon as possible.</p>
+                        
+                        <form id="contactForm" class="contact-form mt-4">
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <div class="form-group">
+                                        <label for="name">Full Name*</label>
+                                        <input type="text" class="form-control" id="name" name="name" required>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-md-6 mb-3">
+                                    <div class="form-group">
+                                        <label for="email">Email Address*</label>
+                                        <input type="email" class="form-control" id="email" name="email" required>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-md-6 mb-3">
+                                    <div class="form-group">
+                                        <label for="phone">Phone Number*</label>
+                                        <input type="tel" class="form-control" id="phone" name="phone" required>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-md-6 mb-3">
+                                    <div class="form-group">
+                                        <label for="subject">Subject*</label>
+                                        <select class="form-select" id="subject" name="subject" required>
+                                            <option value="" selected disabled>Select Subject</option>
+                                            <option value="Admission Inquiry">Admission Inquiry</option>
+                                            <option value="Program Information">Program Information</option>
+                                            <option value="Fee Structure">Fee Structure</option>
+                                            <option value="Campus Visit">Campus Visit</option>
+                                            <option value="Other">Other</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-12 mb-3">
+                                    <div class="form-group">
+                                        <label for="message">Message*</label>
+                                        <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-primary">Send Message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section id="map" class="section-padding-sm bg-light">
+        <div class="container">
+            <div class="map-container" data-aos="fade-up">
+                <div class="map-placeholder text-center py-5">
+                    <i class="fas fa-map-marked-alt fa-4x text-primary mb-3"></i>
+                    <h4>Find us on Google Maps</h4>
+                    <p>123 Education Street, Academic District, Knowledge City, 560001</p>
+                    <a href="https://maps.google.com" target="_blank" class="btn btn-outline-primary mt-2">View on Google Maps</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="cta" class="section-padding-sm cta-section">
+        <div class="container bg-light shadow-lg">
+            <div class="row align-items-center">
+                <div class="col-lg-8 mb-4 mb-lg-0" data-aos="fade-right">
+                    <h2 class="text-dark">Ready to Start Your Educational Journey?</h2>
+                    <p class="text-dark-50 mb-0">Enroll today and take the first step towards academic excellence with Sai Chalam Academy.</p>
+                </div>
+                <div class="col-lg-4 text-lg-end" data-aos="fade-left">
+                    <a href="#contact" class="btn btn-outline-primary btn-lg">Enroll Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer" class="pt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="footer-info">
+                        <div class="footer-logo mb-3">
+                            <img src="assets/images/logo.png" alt="Sai Chalam Academy" class="img-fluid" style="max-width: 200px;">
+                        </div>
+                        <p>Sai Chalam Academy is dedicated to providing quality education and guidance to students, helping them achieve academic excellence and personal growth.</p>
+                        <div class="social-links mt-3">
+                            <a href="#" class="p-2"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="p-2"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="p-2"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="p-2"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"class="p-2"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <div class="footer-links">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="#hero">Home</a></li>
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#programs">Programs</a></li>
+                            <li><a href="#faculty">Faculty</a></li>
+                            <li><a href="#gallery">Gallery</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="footer-links">
+                        <h4>Our Programs</h4>
+                        <ul>
+                            <li><a href="#">Mathematics</a></li>
+                            <li><a href="#">Sciences</a></li>
+                            <li><a href="#">Language Arts</a></li>
+                            <li><a href="#">Computer Science</a></li>
+                            <li><a href="#">Entrance Exam Preparation</a></li>
+                            <li><a href="#">Skill Development</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-newsletter">
+                        <h4>Newsletter</h4>
+                        <p>Subscribe to our newsletter to receive updates and educational resources.</p>
+                        <form>
+                            <div class="input-group mb-3">
+                                <input type="email" class="form-control" placeholder="Your Email" aria-label="Your Email">
+                                <button class="btn btn-primary" type="button">Subscribe</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom text-center py-3 mt-4 border-2" style=" border-top: 2px solid #a30000;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-md-start">
+                        <p class="mb-md-0">&copy; 2023 Sai Chalam Academy. All Rights Reserved.</p>
+                    </div>
+                    <div class="col-md-6 text-md-end">
+                        <p class="mb-0">
+                            <a href="#">Privacy Policy</a> | 
+                            <a href="#">Terms of Service</a> | 
+                            <a href="#">Sitemap</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    <!-- jQuery Validation Plugin -->
+    <script src="js/jquery.validate.min.js"></script>
+    
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <!-- Owl Carousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    
+    <!-- Counter JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
 </html>
